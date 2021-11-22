@@ -82,5 +82,3 @@ let currentLocationButton = document.querySelector("#current-location");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 search("Berlin");
-
-JUST A TEST
