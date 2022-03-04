@@ -72,6 +72,9 @@ h2 {
   text-align: center;
   opacity: 40%;
 }
+.right-here {
+  margin-top: 20px;
+}
 
 .search-field {
   text-align: center;
@@ -86,6 +89,7 @@ h2 {
 
 .time {
   text-align: center;
+  margin-top: 30px;
 }
 
 .weather-box {
@@ -97,6 +101,6 @@ h2 {
   border: 1px solid #e4eef5;
   padding: 30px 20px;
   border-radius: 20px;
-  background: #eff7f7;
+  background: #a1dada;
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
 }
