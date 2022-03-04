@@ -34,14 +34,14 @@ function showTemperature(response) {
   let humidity = document.querySelector("#humidity");
   humidity.innerHTML = response.data.main.humidity;
   let wind = document.querySelector("#wind");
-  wind.innerHTML = Math.round(response.data.wind.speed);
+  wind.innerHTML = Math.round(response.data.wind.speed * 3.6);
   console.log(response.data);
   let description = document.querySelector("h2");
   let highest = document.querySelector("#high");
   highest.innerHTML = Math.round(response.data.main.temp_min);
   let lowest = document.querySelector("#low");
   lowest.innerHTML = Math.round(response.data.main.temp_max);
-  description.innerHTML = response.data.weather[0].main;
+  description.innerHTML = response.data.weather[0].description;
 }
 
 function search(city) {
