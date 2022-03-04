@@ -31,6 +31,12 @@ function showTemperature(response) {
   tempInCity.innerHTML = temperature;
   let cityName = document.querySelector("#city-name");
   cityName.innerHTML = response.data.name;
+  let icon = document.querySelector("#icon");
+  icon.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  icon.setAttribute("alt", response.data.weather[0].description);
   let humidity = document.querySelector("#humidity");
   humidity.innerHTML = response.data.main.humidity;
   let wind = document.querySelector("#wind");
