@@ -24,12 +24,25 @@
     <div class="container">
       <div class="weather-box">
         <form id="search-form" class="search-field">
-          <input type="text" id="search-form-input" placeholder="Search" />
-          <button type="submit" class="btn btn-primary shadow-sm">GO!</button>
+          <div class="row">
+            <div class="col-10">
+              <input
+                class="form-control"
+                type="text"
+                id="search-form-input"
+                placeholder="Search"
+              />
+            </div>
+            <div class="col-2">
+              <button type="submit" class="btn btn-primary shadow-sm">
+                GO!
+              </button>
+            </div>
+          </div>
           <button
             id="current-location"
             type="submit"
-            class="btn btn-primary shadow-sm"
+            class="btn btn-primary shadow-sm right-here"
           >
             Right Here 📍
           </button>
