@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #a1a1e6;
+  color: #ec6e4d;
   text-align: center;
 }
 
@@ -57,7 +57,7 @@ h2 {
 .current-temperature {
   font-size: 50px;
   text-align: center;
-  color: #006ec5;
+  color: #48484a;
 }
 
 .forecast-low {
