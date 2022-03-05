@@ -60,6 +60,10 @@ h2 {
   color: #006ec5;
 }
 
+.forecast-low {
+  opacity: 0.5;
+}
+
 .image {
   display: block;
   margin-left: auto;
